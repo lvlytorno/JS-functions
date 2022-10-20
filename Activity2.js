@@ -1,9 +1,13 @@
 //Lovely T. Torno
 //BSIT 3B
+//Activity 2
 
-function alpha(str) {
-    var alphabet = str.split("");
-    alphabeticalOrder = alphabet.sort().join("");
-    return alphabeticalOrder;
+const uppercaseString = 'the quick brown fox';
+
+const firstLetter = uppercaseString.split(" ");
+for (var i = 0; i < firstLetter.length; i++) {
+    firstLetter[i] = firstLetter[i].charAt(0).toUpperCase() + firstLetter[i].slice(1);
 }
-console.log(alpha("webmaster"));
+
+const uppercaseString2 = firstLetter.join(" ");
+console.log(uppercaseString2);
