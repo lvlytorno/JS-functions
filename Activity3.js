@@ -1,5 +1,6 @@
 //Lovely T. Torno
 //BSIT 3B
+//Activity 3
 
 function alpha(str) {
     var alphabet = str.split("");
